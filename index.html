@@ -255,14 +255,15 @@
       </div>
     </div>
   </section>
-
+<!-- Paper abstract -->
 <section class="section hero">
-  <div class="container">
+  <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
-      <div class="column">
-        <h2 class="title is-3 has-text-centered">Abstract</h2>
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <p>Sensing micro-vibration plays a critical role in diverse industrial applications, including structural health monitoring and machinery diagnostics. 
+          <p>
+            Sensing micro-vibration plays a critical role in diverse industrial applications, including structural health monitoring and machinery diagnostics. 
             However, most existing vibration sensing technologies rely on physical contact with the target object or demand complex installation procedures, making
             them intrusive and costly. This paper presents PocketVib, the first cost-effective, portable smartphone-based laser speckle vibrometry system for multi-point 
             kHz-frequency micro-vibration sensing. PocketVib integrates built-in smartphone sensors, i.e., Time-of-Flight (ToF) depth cameras and rolling shutter cameras, 
@@ -272,15 +273,23 @@
             3) a reference-free algorithm that leverages temporal correlations across rolling shutter image rows for precise vibration extraction. 
             We implement PocketVib on commodity smartphones with a custom hardware kit. Extensive experimental results demonstrate that 
             PocketVib enables fast and accurate vibration frequency estimation on mobile devices, achieving frequency measurements up 
-            to 1 kHz with an average error of only 0.6 Hz at just 30 fps, while supporting simultaneous measurements at seven points.
-          </p>
-          <img src="static/images/PocketVib.png" alt="PocketVib" loading="lazy" style="width: 45%; display: block; margin: 0 auto;"/>
+            to 1 kHz with an average error of only 0.6 Hz at just 30 fps, while supporting simultaneous measurements at seven points.</p>
+            <img src="static/images/PocketVib.png" alt="PocketVib" loading="lazy" style="width: 60%; display: block; margin: 0 auto;"/>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
 
-        <h2 class="title is-3 has-text-centered">Why PocketVib Is Possible</h2>
-          <div class="content has-text-justified">
-            
-            <p>Recently, Laser Speckle Vibrometry (LSV) has emerged as a promising technology for micro-vibration sensing through the coherent light interference phenomena. 
+<!-- Paper abstract -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Why PocketVib Is Possible</h2>
+        <div class="content has-text-justified">
+          <p>Recently, Laser Speckle Vibrometry (LSV) has emerged as a promising technology for micro-vibration sensing through the coherent light interference phenomena. 
               Its standard implementation comprises two core components: 1) <b>a coherent laser source</b> that generates stable speckle patterns, and 2) <b>a defocused high-speed imaging system</b> that captures speckle dynamics.
             </p> 
             <p><b>Principles of LSV:</b> When coherent light illuminates a rough surface, scattered waves with varying optical paths create the speckle patterns. 
@@ -294,11 +303,19 @@
             <p><b>High-Sampling-Rate Defocused Imager:</b> Modern smartphone cameras feature rolling shutter mechanisms and auto-focus systems, making them particularly well-suited as high-sampling-rate defocused imagers for LSV systems.
             </p>
 
-            <img src="static/images/Motivation.png" alt="Motivation" loading="lazy" style="width: 85%; display: block; margin: 0 auto;"/>
-        
-          </div>
-      
-        <h2 class="title is-3 has-text-centered">System Overview</h2>
+            <img src="static/images/Motivation.png" alt="Motivation" loading="lazy" style="width: 100%; display: block; margin: 0 auto;"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+<!-- Paper abstract -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">System Overview</h2>
         <div class="content has-text-justified">
           <p>PocketVib consists of three key components, each addressing specific challenges in adapting LSV to mobile devices:
             <ul>
@@ -312,20 +329,39 @@
                 information, eliminating the need for an external reference frame. <em>(Challenge 3: Lacking Reference Frame)</em></li>
             </ul>
           </p>
-          <img src="static/images/System_Overview.png" alt="System Overview" loading="lazy" style="width: 45%; display: block; margin: 0 auto;"/>
+          <img src="static/images/System_Overview.png" alt="System Overview" loading="lazy" style="width: 60%; display: block; margin: 0 auto;"/>
         </div>
-
-        <h2 class="title is-3 has-text-centered">An Simple Example</h2>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+<!-- Paper abstract -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">An Simple example</h2>
         <div class="content has-text-justified">
           <p>We demonstrate PocketVib with an example measurement of a tuning fork's vibration. The corresponding frequency is <b>964.90 Hz.</b>
               The left figure shows the experimental setup, while the right figure shows the captured speckle pattern and the corresponding vibration analysis results.</p>
 
-          <img src="static/images/example.png" alt="example" loading="lazy" style="width: 70%; display: block; margin: 0 auto;"/>
+          <img src="static/images/example.png" alt="example" loading="lazy" style="width: 80%; display: block; margin: 0 auto;"/>
         </div>
-        
-        <h2 id="diy" class="title is-3 has-text-centered">DIY: Build Your Own PocketVib</h2>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Paper abstract -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">DIY: Build Your Own PocketVib</h2>
         <div class="content has-text-justified">
-          <p><b style="font-size: 1.2em;">What you'll need:</b></p>
+         <p><b style="font-size: 1.2em;">What you'll need:</b></p>
           <ol>
             <li>Apple's iPhone Pro series (12-17 generations)</li>
             <li>A short-focal-length cylindrical lens</li>
@@ -352,16 +388,17 @@
             <li>Place the IR-pass filter in front of the lens to block visible light, allowing only infrared light to reach the camera sensor.</li>
             <li>Place a small slit on the LiDAR, allowing only a single row of speckles to exist within the camera's field of view (FOV)</li>  
           </ol>
-            <img src="static/images/PocketVib_system.png" alt="PocketVib_system" loading="lazy" style="width: 20%; display: block; margin: 0 auto;"/>
-          
+            <img src="static/images/PocketVib_system.png" alt="PocketVib_system" loading="lazy" style="width: 30%; display: block; margin: 0 auto;"/>
+          <p></p>
           <p><b style="font-size: 1.2em;">Step 3: Install PocketVib App</b></p>
-          <p>Detailed instructions are available on our <a href="https://code-base.cuhkaiot.com/paper-code-snapshots/mobicom-2026-submission-paper-PocketVib" target="_blank">GitHub repository</a>. Now use the PocketVib! Take an short video of a vibrating object!</p>
-            <img src="static/images/PocketVibApp.png" alt="PocketVibApp" loading="lazy" style="width: 70%; display: block; margin: 0 auto;"/>
+          <p>Detailed instructions are available on our <a href="https://github.com/shangchengjin/PocketVib" target="_blank">GitHub repository</a>. Now use the PocketVib! Take an short video of a vibrating object!</p>
+            <img src="static/images/PocketVibApp.png" alt="PocketVibApp" loading="lazy" style="width: 80%; display: block; margin: 0 auto;"/>
         </div>
       </div>
     </div>
   </div>
 </section>
+<!-- End paper abstract -->
      
 <!--BibTex citation -->
   <!-- <section class="section" id="BibTeX">
